@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/createCodeFragment"
+        android:name="com.abnuj.barcodescanner.CreateCodeFragment"
+        android:label="CreateCodeFragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.abnuj.barcodescanner.HomeFramgment"
+        android:label="HomeFragment" />
+
+    <fragment
+        android:id="@+id/recentFragment"
+        android:name="com.abnuj.barcodescanner.RecentFragment"
+        android:label="RecentFragment" />
+
+</navigation>
